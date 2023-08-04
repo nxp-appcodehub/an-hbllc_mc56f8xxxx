@@ -1,0 +1,295 @@
+/*!
+\page CMPA CMPA (Init_HSCMP)
+**          This file implements the HSCMP (CMPA) module initialization
+**          according to the Peripheral Initialization settings, and
+**          defines interrupt service routines prototypes.
+
+- \subpage CMPA_settings
+- \subpage CMPA_regs_overview  
+- \subpage CMPA_regs_details
+- \ref CMPA_module "Component documentation" 
+
+\page CMPA_regs_overview Registers Initialization Overview
+This page initialization values for the registers of the peripheral(s) configured
+by the component. 
+<table>
+<tr><td colspan="4" class="ttitle1">CMPA Initialization</td></tr>
+<tr><td class="ttitle2">Address</td><td class="ttitle2">Register</td><td class="ttitle2">Register Value</td><td class="ttitle2">Register Description</td></tr>
+<tr><td>0x0000E022</td><td>CMPA_FPR</td><td>
+    0x00000001
+ </td><td>CMPA_FPR register, peripheral CMPA.</td></tr>
+<tr><td>0x0000E021</td><td>CMPA_CR1</td><td>
+    0x00000011
+ </td><td>CMPA_CR1 register, peripheral CMPA.</td></tr>
+<tr><td>0x0000E023</td><td>CMPA_SCR</td><td>
+    0x00000006
+ </td><td>CMPA_SCR register, peripheral CMPA.</td></tr>
+<tr><td>0x0000E020</td><td>CMPA_CR0</td><td>
+    0x00000030
+ </td><td>CMPA_CR0 register, peripheral CMPA.</td></tr>
+<tr><td>0x0000E024</td><td>CMPA_DACCR</td><td>
+    0x000000B3
+ </td><td>CMPA_DACCR register, peripheral CMPA.</td></tr>
+<tr><td>0x0000E025</td><td>CMPA_MUXCR</td><td>
+    0x0000003B
+ </td><td>CMPA_MUXCR register, peripheral CMPA.</td></tr>
+</table>
+<br/>
+\page CMPA_regs_details Register Initialization Details
+This page contains detailed description of initialization values for the 
+registers of the peripheral(s) configured by the component. 
+
+<div class="reghdr1">CMPA_FPR</div>
+<div class="regdiag">
+<table class="regtbl">
+<tr class="trd1r">
+<td class="trd1c">Bit</td><td>15</td><td>14</td><td>13</td><td>12</td><td>11</td><td>10</td><td>9</td><td>8</td><td>7</td>
+<td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td class="trd1c">R</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="8" rowspan="2">FILT_PER</td>
+</tr>
+<tr>
+<td class="trd1c">W</td>
+</tr>
+<tr class="trd1r">
+<td class="trd1c">Reset</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+</table>
+        
+</div>
+<table class="regtbl2"><tr><td class="trowtit" colspan="2">Address</td><td colspan="2">0x0000E022</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">Initial value</td><td colspan="2">0x00000001</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">After-reset value</td><td colspan="2">0x00000000</td></tr>
+<tr><td class="ttitle2">Bit</td><td class="ttitle2">Field</td><td class="ttitle2">Value</td><td class="ttitle2">Description</td></tr>
+<tr><td>0 - 7</td><td>FILT_PER</td><td>0x00</td><td>Filter Sample Period</td>
+</tr></table>
+<div class="reghdr1">CMPA_CR1</div>
+<div class="regdiag">
+<table class="regtbl">
+<tr class="trd1r">
+<td class="trd1c">Bit</td><td>15</td><td>14</td><td>13</td><td>12</td><td>11</td><td>10</td><td>9</td><td>8</td><td>7</td>
+<td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td class="trd1c">R</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">SE</td>
+<td colspan="1" rowspan="2">WE</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">PMODE</td>
+<td colspan="1" rowspan="2">INV</td><td colspan="1" rowspan="2">COS</td><td colspan="1" rowspan="2">OPE</td>
+<td colspan="1" rowspan="2">EN</td>
+</tr>
+<tr>
+<td class="trd1c">W</td>
+</tr>
+<tr class="trd1r">
+<td class="trd1c">Reset</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+</table>
+        
+</div>
+<table class="regtbl2"><tr><td class="trowtit" colspan="2">Address</td><td colspan="2">0x0000E021</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">Initial value</td><td colspan="2">0x00000011</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">After-reset value</td><td colspan="2">0x00000000</td></tr>
+<tr><td class="ttitle2">Bit</td><td class="ttitle2">Field</td><td class="ttitle2">Value</td><td class="ttitle2">Description</td></tr>
+<tr><td>7</td><td>SE</td><td>0x00</td><td>Sample Enable</td>
+<tr><td>6</td><td>WE</td><td>0x00</td><td>Windowing Enable</td>
+<tr><td>4</td><td>PMODE</td><td>0x01</td><td>Power Mode Select</td>
+<tr><td>3</td><td>INV</td><td>0x00</td><td>Comparator INVERT</td>
+<tr><td>2</td><td>COS</td><td>0x00</td><td>Comparator Output Select</td>
+<tr><td>1</td><td>OPE</td><td>0x00</td><td>Comparator Output Pin Enable</td>
+<tr><td>0</td><td>EN</td><td>0x01</td><td>Comparator Module Enable</td>
+</tr></table>
+<div class="reghdr1">CMPA_SCR</div>
+<div class="regdiag">
+<table class="regtbl">
+<tr class="trd1r">
+<td class="trd1c">Bit</td><td>15</td><td>14</td><td>13</td><td>12</td><td>11</td><td>10</td><td>9</td><td>8</td><td>7</td>
+<td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td class="trd1c">R</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">IER</td>
+<td colspan="1" rowspan="2">IEF</td><td colspan="1" rowspan="2">CFR</td><td colspan="1" rowspan="2">CFF</td>
+<td colspan="1" rowspan="1">COUT</td>
+</tr>
+<tr>
+<td class="trd1c">W</td>
+<td colspan="1"></td>
+</tr>
+<tr class="trd1r">
+<td class="trd1c">Reset</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+</table>
+        
+</div>
+<table class="regtbl2"><tr><td class="trowtit" colspan="2">Address</td><td colspan="2">0x0000E023</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">Initial value</td><td colspan="2">0x00000006</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">After-reset value</td><td colspan="2">0x00000000</td></tr>
+<tr><td class="ttitle2">Bit</td><td class="ttitle2">Field</td><td class="ttitle2">Value</td><td class="ttitle2">Description</td></tr>
+<tr><td>4</td><td>IER</td><td>0x00</td><td>Comparator Interrupt Enable Rising</td>
+<tr><td>3</td><td>IEF</td><td>0x00</td><td>Comparator Interrupt Enable Falling</td>
+<tr><td>2</td><td>CFR</td><td>0x01</td><td>Analog Comparator Flag Rising</td>
+<tr><td>1</td><td>CFF</td><td>0x01</td><td>Analog Comparator Flag Falling</td>
+<tr><td>0</td><td>COUT</td><td>0x00</td><td>Analog Comparator Output</td>
+</tr></table>
+<div class="reghdr1">CMPA_CR0</div>
+<div class="regdiag">
+<table class="regtbl">
+<tr class="trd1r">
+<td class="trd1c">Bit</td><td>15</td><td>14</td><td>13</td><td>12</td><td>11</td><td>10</td><td>9</td><td>8</td><td>7</td>
+<td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td class="trd1c">R</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="3" rowspan="2">FILTER_CNT</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="2" rowspan="2">HYSTCTR</td>
+</tr>
+<tr>
+<td class="trd1c">W</td>
+</tr>
+<tr class="trd1r">
+<td class="trd1c">Reset</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+</table>
+        
+</div>
+<table class="regtbl2"><tr><td class="trowtit" colspan="2">Address</td><td colspan="2">0x0000E020</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">Initial value</td><td colspan="2">0x00000030</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">After-reset value</td><td colspan="2">0x00000000</td></tr>
+<tr><td class="ttitle2">Bit</td><td class="ttitle2">Field</td><td class="ttitle2">Value</td><td class="ttitle2">Description</td></tr>
+<tr><td>4 - 6</td><td>FILTER_CNT</td><td>0x00</td><td>Filter Sample Count</td>
+<tr><td>0 - 1</td><td>HYSTCTR</td><td>0x00</td><td>Comparator hard block hysteresis control</td>
+</tr></table>
+<div class="reghdr1">CMPA_DACCR</div>
+<div class="regdiag">
+<table class="regtbl">
+<tr class="trd1r">
+<td class="trd1c">Bit</td><td>15</td><td>14</td><td>13</td><td>12</td><td>11</td><td>10</td><td>9</td><td>8</td><td>7</td>
+<td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td class="trd1c">R</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">DACEN</td>
+<td colspan="1" rowspan="2">VRSEL</td><td colspan="6" rowspan="2">VOSEL</td>
+</tr>
+<tr>
+<td class="trd1c">W</td>
+</tr>
+<tr class="trd1r">
+<td class="trd1c">Reset</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+</table>
+        
+</div>
+<table class="regtbl2"><tr><td class="trowtit" colspan="2">Address</td><td colspan="2">0x0000E024</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">Initial value</td><td colspan="2">0x000000B3</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">After-reset value</td><td colspan="2">0x00000000</td></tr>
+<tr><td class="ttitle2">Bit</td><td class="ttitle2">Field</td><td class="ttitle2">Value</td><td class="ttitle2">Description</td></tr>
+<tr><td>7</td><td>DACEN</td><td>0x01</td><td>DAC Enable</td>
+<tr><td>6</td><td>VRSEL</td><td>0x00</td><td>Supply Voltage Reference Source Select</td>
+<tr><td>0 - 5</td><td>VOSEL</td><td>0x20</td><td>DAC Output Voltage Select</td>
+</tr></table>
+<div class="reghdr1">CMPA_MUXCR</div>
+<div class="regdiag">
+<table class="regtbl">
+<tr class="trd1r">
+<td class="trd1c">Bit</td><td>15</td><td>14</td><td>13</td><td>12</td><td>11</td><td>10</td><td>9</td><td>8</td><td>7</td>
+<td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+</tr>
+<tr>
+<td class="trd1c">R</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td><td colspan="1" rowspan="2">-</td>
+<td colspan="1" rowspan="2">-</td><td colspan="3" rowspan="2">PSEL</td><td colspan="3" rowspan="2">MSEL</td>
+</tr>
+<tr>
+<td class="trd1c">W</td>
+</tr>
+<tr class="trd1r">
+<td class="trd1c">Reset</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+</tr>
+</table>
+        
+</div>
+<table class="regtbl2"><tr><td class="trowtit" colspan="2">Address</td><td colspan="2">0x0000E025</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">Initial value</td><td colspan="2">0x0000003B</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">After-reset value</td><td colspan="2">0x00000000</td></tr>
+<tr><td class="ttitle2">Bit</td><td class="ttitle2">Field</td><td class="ttitle2">Value</td><td class="ttitle2">Description</td></tr>
+<tr><td>3 - 5</td><td>PSEL</td><td>0x04</td><td>Plus Input Mux Control</td>
+<tr><td>0 - 2</td><td>MSEL</td><td>0x00</td><td>Minus Input Mux Control</td>
+</tr></table>
+*/
+/*!
+\page CMPA_settings Component Settings
+\code
+**          Component name                                 : CMPA
+**          Device                                         : CMPA
+**          Settings                                       : 
+**            Sample                                       : Disabled
+**            Windowing                                    : Disabled
+**            Filter sample count                          : 3
+**            Filter sample period                         : 1
+**            Sampling period                              : 0.020 us
+**            Invert control                               : Do NOT invert
+**            Comparator output select                     : Filtered
+**            Power mode                                   : High speed
+**            Hysteresis control                           : Level 0
+**            DAC module                                   : Enabled
+**              DAC device                                 : CMPA_DACCR
+**              Reference selection                        : Internal
+**              Output voltage select                      : 52
+**          Pins/Signals                                   : 
+**            Positive input pins                          : Enabled
+**              Positive input pin0                        : Disabled
+**              Positive input pin1                        : Disabled
+**              Positive input pin2                        : Disabled
+**              Positive input pin3                        : Disabled
+**              Positive input pin4                        : Disabled
+**              Positive input pin5                        : Disabled
+**              Positive input pin6                        : Disabled
+**              Positive input pin7                        : Enabled
+**                Positive input pin7                      : DAC6bA_Output
+**                Positive input pin7 signal               : 
+**            Negative input pins                          : Enabled
+**              Negative input pin0                        : Disabled
+**              Negative input pin1                        : Disabled
+**              Negative input pin2                        : Disabled
+**              Negative input pin3                        : Enabled
+**                Negative input pin3                      : GPIOA0/ANA0/CMPA_IN3/CMPC_O
+**                Negative input pin3 signal               : 
+**              Negative input pin4                        : Disabled
+**              Negative input pin5                        : Disabled
+**              Negative input pin6                        : Disabled
+**              Negative input pin7                        : Disabled
+**            Window/Sample input                          : Disabled
+**            Output pin                                   : Disabled
+**          Interrupts/DMA                                 : 
+**            Rising or Falling compare                    : 
+**              Interrupt                                  : INT_CMPA
+**              Interrupt priority                         : disabled
+**              ISR name                                   : 
+**              Rising compare interrupt                   : Disabled
+**              Falling compare interrupt                  : Disabled
+**          Initialization                                 : 
+**            Comparator module                            : Enabled
+**            Initial positive input                       : IN7
+**            Initial negative input                       : IN3
+**            Enable peripheral clock                      : yes
+**            Call Init method                             : yes
+**            Utilize after reset values                   : default
+\endcode
+*/

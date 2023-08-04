@@ -1,0 +1,712 @@
+/*!
+\page page_pinalloc
+
+<H2><font face='Arial'>Pin Allocation Report</font></H2><TABLE cellpadding='2' border='1' bordercolor='BLACK' bgcolor='WHITE' align='center'>
+<TR bgcolor='#E8E8E8'><TH>Peripheral</TH><TH>Custom peripheral name</TH><TH>Peripheral description</TH></TR>
+<TR bgcolor='#F8FF9A'><TD>ADC</TD><TD>ADC</TD><TD><small>Analog-to-Digital Converter</small></TD></TR>
+<TR bgcolor='#FFE1C7'><TD>AOI</TD><TD>AOI</TD><TD><small>AND/OR/INVERT module</small></TD></TR>
+<TR bgcolor='#AFFF8E'><TD>CAN</TD><TD>CAN</TD><TD><small>Freescale's Scalable Controller Area Network</small></TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPA</TD><TD>CMPA</TD><TD><small>High-Speed Comparator (CMP), Voltage Reference (VREF) Digital-to-Analog Converter (DAC), and Analog Mux (ANMUX)</small></TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPB</TD><TD>CMPB</TD><TD><small>High-Speed Comparator (CMP), Voltage Reference (VREF) Digital-to-Analog Converter (DAC), and Analog Mux (ANMUX)</small></TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPC</TD><TD>CMPC</TD><TD><small>High-Speed Comparator (CMP), Voltage Reference (VREF) Digital-to-Analog Converter (DAC), and Analog Mux (ANMUX)</small></TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPD</TD><TD>CMPD</TD><TD><small>High-Speed Comparator (CMP), Voltage Reference (VREF) Digital-to-Analog Converter (DAC), and Analog Mux (ANMUX)</small></TD></TR>
+<TR bgcolor='#E5E44D'><TD>DACA</TD><TD>DACA</TD><TD><small>12-Bit Digital-to-Analog Converter</small></TD></TR>
+<TR bgcolor='#E5E44D'><TD>DACB</TD><TD>DACB</TD><TD><small>12-Bit Digital-to-Analog Converter</small></TD></TR>
+<TR bgcolor='#EBD4BD'><TD>DMA</TD><TD>DMA</TD><TD><small>DMA Controller</small></TD></TR>
+<TR bgcolor='#F7DCFF'><TD>EONCE</TD><TD>EONCE</TD><TD><small>Enhanced On-Chip Emulation</small></TD></TR>
+<TR bgcolor='#CEFFFF'><TD>EWM</TD><TD>EWM</TD><TD><small>EWM device</small></TD></TR>
+<TR bgcolor='#F7DCFF'><TD>GPIOA</TD><TD>GPIOA</TD><TD><small>General Purpose Input/Output</small></TD></TR>
+<TR bgcolor='#F7DCFF'><TD>GPIOB</TD><TD>GPIOB</TD><TD><small>General Purpose Input/Output</small></TD></TR>
+<TR bgcolor='#F7DCFF'><TD>GPIOC</TD><TD>GPIOC</TD><TD><small>General Purpose Input/Output</small></TD></TR>
+<TR bgcolor='#F7DCFF'><TD>GPIOD</TD><TD>GPIOD</TD><TD><small>General Purpose Input/Output</small></TD></TR>
+<TR bgcolor='#F7DCFF'><TD>GPIOE</TD><TD>GPIOE</TD><TD><small>General Purpose Input/Output</small></TD></TR>
+<TR bgcolor='#F7DCFF'><TD>GPIOF</TD><TD>GPIOF</TD><TD><small>General Purpose Input/Output</small></TD></TR>
+<TR bgcolor='#90EE67'><TD>I2C</TD><TD>I2C</TD><TD><small>Inter-integrated circuit bus</small></TD></TR>
+<TR bgcolor='#DDC7B5'><TD>OCCS</TD><TD>OCCS</TD><TD><small>On-Chip Clock Synthesis</small></TD></TR>
+<TR bgcolor='#F7DCFF'><TD>PIT0</TD><TD>PIT0</TD><TD><small>Periodic Interrupt Timer Module</small></TD></TR>
+<TR bgcolor='#F7DCFF'><TD>PIT1</TD><TD>PIT1</TD><TD><small>Periodic Interrupt Timer Module</small></TD></TR>
+<TR bgcolor='#F7DCFF'><TD>PWMA</TD><TD>PWMA</TD><TD><small>Pulse Width Modulator with nano edge placement</small></TD></TR>
+<TR bgcolor='#5FE356'><TD>QSCI0</TD><TD>QSCI0</TD><TD><small>Serial Communications Interface Module QSCI0</small></TD></TR>
+<TR bgcolor='#5FE356'><TD>QSCI1</TD><TD>QSCI1</TD><TD><small>Serial Communications Interface Module QSCI1</small></TD></TR>
+<TR bgcolor='#20E04E'><TD>QSPI0</TD><TD>QSPI0</TD><TD><small>Queued Serial Peripheral Interface</small></TD></TR>
+<TR bgcolor='#20E04E'><TD>QSPI1</TD><TD>QSPI1</TD><TD><small>Queued Serial Peripheral Interface</small></TD></TR>
+<TR bgcolor='#CCB6A0'><TD>SIM</TD><TD>SIM</TD><TD><small>System Integration Module</small></TD></TR>
+<TR bgcolor='#B3EAFF'><TD>TMR</TD><TD>TMR</TD><TD><small>Quad Timer Module</small></TD></TR>
+<TR bgcolor='#C7A886'><TD>XBARA</TD><TD>XBARA</TD><TD><small>Crossbar Switch</small></TD></TR>
+</TABLE><br/><br/>
+
+<H2><font face='Arial'>Routed Pins</font></H2><TABLE cellpadding='2' border='1' bordercolor='BLACK' bgcolor='WHITE' width='100%' align='center'><TR><TD colspan='3'></TD><TH colspan='4' align='center' bgcolor='#D0D0D0'>Assigned Pin Function(s)</TH></TR><TR><TH bgcolor='#E8E8E8'>Package Pin #</TH><TH bgcolor='#E8E8E8'>Pin Name</TH><TH bgcolor='#E8E8E8'>User Assigned Signal Name</TH>
+<TH bgcolor='#E8E8E8'>Assigned Peripheral</TH><TH bgcolor='#E8E8E8'>Assigned Function</TH><TH bgcolor='#E8E8E8'>Package Function</TH><TH bgcolor='#E8E8E8'>Dir</TH>
+</TR>
+<TR><TD>1</TD><TD>TCK/GPIOD2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>EONCE</TD><TD bgcolor='#F7DCFF'>TCK</TD><TD bgcolor='#F7DCFF'>alt0</TD><TD bgcolor='#F7DCFF'>Input</TD>
+</TR>
+<TR><TD rowspan='2'>2</TD><TD rowspan='2'>RESETB/VPP/GPIOD4</TD><TD rowspan='2'><small><i>same</i></small></TD>
+<TD bgcolor='#969696'>non-peripheral</TD><TD bgcolor='#969696'>RESET</TD><TD bgcolor='#969696'>alt0</TD><TD bgcolor='#969696'>Not Specified</TD>
+</TR>
+<TR bgcolor='#969696'><TD>non-peripheral</TD><TD>vpp</TD><TD>alt0</TD><TD>Not Specified</TD></TR>
+<TR><TD>3</TD><TD>GPIOC0/EXTAL/CLKIN0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port0</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Output</TD>
+</TR>
+<TR><TD>4</TD><TD>GPIOC1/XTAL</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port1</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Output</TD>
+</TR>
+<TR><TD>5</TD><TD>GPIOC2/TXD0/XB_OUT11/XB_IN2/CLKO0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#5FE356'>QSCI0</TD><TD bgcolor='#5FE356'>sci_tx</TD><TD bgcolor='#5FE356'>alt0</TD><TD bgcolor='#5FE356'>Output</TD>
+</TR>
+<TR><TD>6</TD><TD>GPIOF8/RXD0/XB_OUT10/CMPD_O/PWM_2X</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOF</TD><TD bgcolor='#F7DCFF'>port8</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>7</TD><TD>GPIOC3/TA0/CMPA_O/RXD0/CLKIN1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#5FE356'>QSCI0</TD><TD bgcolor='#5FE356'>sci_rx</TD><TD bgcolor='#5FE356'>alt2</TD><TD bgcolor='#5FE356'>Input</TD>
+</TR>
+<TR><TD>8</TD><TD>GPIOC4/TA1/CMPB_O/XB_IN6/EWM_OUT_B</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port4</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Output</TD>
+</TR>
+<TR><TD rowspan='3'>9</TD><TD rowspan='3'>GPIOA7/ANA7/CMPD_IN3</TD><TD rowspan='3'><small><i>same</i></small></TD>
+<TD bgcolor='#F8FF9A'>ADC</TD><TD bgcolor='#F8FF9A'>ADC7</TD><TD bgcolor='#F8FF9A'>alt0</TD><TD bgcolor='#F8FF9A'>Input</TD>
+</TR>
+<TR bgcolor='#EFF174'><TD>CMPD</TD><TD>Positive3</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPD</TD><TD>Negative3</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR><TD>10</TD><TD>GPIOA6/ANA6/CMPD_IN2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOA</TD><TD bgcolor='#F7DCFF'>port6</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD rowspan='3'>11</TD><TD rowspan='3'>GPIOA5/ANA5/CMPD_IN1</TD><TD rowspan='3'><small><i>same</i></small></TD>
+<TD bgcolor='#F8FF9A'>ADC</TD><TD bgcolor='#F8FF9A'>ADC5</TD><TD bgcolor='#F8FF9A'>alt0</TD><TD bgcolor='#F8FF9A'>Input</TD>
+</TR>
+<TR bgcolor='#EFF174'><TD>CMPD</TD><TD>Positive1</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPD</TD><TD>Negative1</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR><TD rowspan='3'>12</TD><TD rowspan='3'>GPIOA4/ANA4/CMPD_IN0</TD><TD rowspan='3'><small><i>same</i></small></TD>
+<TD bgcolor='#F8FF9A'>ADC</TD><TD bgcolor='#F8FF9A'>ADC4</TD><TD bgcolor='#F8FF9A'>alt0</TD><TD bgcolor='#F8FF9A'>Input</TD>
+</TR>
+<TR bgcolor='#EFF174'><TD>CMPD</TD><TD>Positive0</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPD</TD><TD>Negative0</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR><TD rowspan='3'>13</TD><TD rowspan='3'>GPIOA0/ANA0/CMPA_IN3/CMPC_O</TD><TD rowspan='3'><small><i>same</i></small></TD>
+<TD bgcolor='#F8FF9A'>ADC</TD><TD bgcolor='#F8FF9A'>ADC0</TD><TD bgcolor='#F8FF9A'>alt0</TD><TD bgcolor='#F8FF9A'>Input</TD>
+</TR>
+<TR bgcolor='#EFF174'><TD>CMPA</TD><TD>Positive3</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPA</TD><TD>Negative3</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR><TD>14</TD><TD>GPIOA1/ANA1/CMPA_IN0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOA</TD><TD bgcolor='#F7DCFF'>port1</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>15</TD><TD>GPIOA2/ANA2/VREFHA/CMPA_IN1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOA</TD><TD bgcolor='#F7DCFF'>port2</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>16</TD><TD>GPIOA3/ANA3/VREFLA/CMPA_IN2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOA</TD><TD bgcolor='#F7DCFF'>port3</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD rowspan='3'>17</TD><TD rowspan='3'>GPIOB7/ANB7/CMPB_IN2</TD><TD rowspan='3'><small><i>same</i></small></TD>
+<TD bgcolor='#F8FF9A'>ADC</TD><TD bgcolor='#F8FF9A'>ADC15</TD><TD bgcolor='#F8FF9A'>alt0</TD><TD bgcolor='#F8FF9A'>Input</TD>
+</TR>
+<TR bgcolor='#EFF174'><TD>CMPB</TD><TD>Positive2</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPB</TD><TD>Negative2</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR><TD>18</TD><TD>GPIOC5/DACA_O/XB_IN7</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port5</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>19</TD><TD>GPIOB6/ANB6/CMPB_IN1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOB</TD><TD bgcolor='#F7DCFF'>port6</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>20</TD><TD>GPIOB5/ANB5/CMPC_IN2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOB</TD><TD bgcolor='#F7DCFF'>port5</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>21</TD><TD>GPIOB4/ANB4/CMPC_IN1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOB</TD><TD bgcolor='#F7DCFF'>port4</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD rowspan='3'>22</TD><TD rowspan='3'>VDDA</TD><TD rowspan='3'><small><i>same</i></small></TD>
+<TD bgcolor='#F8FF9A'>ADC</TD><TD bgcolor='#F8FF9A'>ADCvrefVREFHA</TD><TD bgcolor='#F8FF9A'>gpio_function</TD><TD bgcolor='#F8FF9A'>Input</TD>
+</TR>
+<TR bgcolor='#F8FF9A'><TD>ADC</TD><TD>ADCvrefVREFHB</TD><TD>gpio_function</TD><TD>Input</TD></TR>
+<TR bgcolor='#969696'><TD>non-peripheral</TD><TD>VCC</TD><TD>gpio_function</TD><TD>Not Specified</TD></TR>
+<TR><TD rowspan='3'>23</TD><TD rowspan='3'>VSSA</TD><TD rowspan='3'><small><i>same</i></small></TD>
+<TD bgcolor='#F8FF9A'>ADC</TD><TD bgcolor='#F8FF9A'>ADCvrefVREFLA</TD><TD bgcolor='#F8FF9A'>gpio_function</TD><TD bgcolor='#F8FF9A'>Input</TD>
+</TR>
+<TR bgcolor='#F8FF9A'><TD>ADC</TD><TD>ADCvrefVREFLB</TD><TD>gpio_function</TD><TD>Input</TD></TR>
+<TR bgcolor='#969696'><TD>non-peripheral</TD><TD>GND</TD><TD>gpio_function</TD><TD>Not Specified</TD></TR>
+<TR><TD>24</TD><TD>GPIOB0/ANB0/CMPB_IN3</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOB</TD><TD bgcolor='#F7DCFF'>port0</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD rowspan='3'>25</TD><TD rowspan='3'>GPIOB1/ANB1/CMPB_IN0/DACB_O</TD><TD rowspan='3'><small><i>same</i></small></TD>
+<TD bgcolor='#F8FF9A'>ADC</TD><TD bgcolor='#F8FF9A'>ADC9</TD><TD bgcolor='#F8FF9A'>alt0</TD><TD bgcolor='#F8FF9A'>Input</TD>
+</TR>
+<TR bgcolor='#EFF174'><TD>CMPB</TD><TD>Positive0</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPB</TD><TD>Negative0</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR><TD>26</TD><TD>VCAP_26</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#969696'>non-peripheral</TD><TD bgcolor='#969696'>other</TD><TD bgcolor='#969696'>gpio_function</TD><TD bgcolor='#969696'>Not Specified</TD>
+</TR>
+<TR><TD rowspan='3'>27</TD><TD rowspan='3'>GPIOB2/ANB2/VREFHB/CMPC_IN3</TD><TD rowspan='3'><small><i>same</i></small></TD>
+<TD bgcolor='#F8FF9A'>ADC</TD><TD bgcolor='#F8FF9A'>ADC10</TD><TD bgcolor='#F8FF9A'>alt0</TD><TD bgcolor='#F8FF9A'>Input</TD>
+</TR>
+<TR bgcolor='#EFF174'><TD>CMPC</TD><TD>Positive3</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR bgcolor='#EFF174'><TD>CMPC</TD><TD>Negative3</TD><TD>alt0</TD><TD>Input</TD></TR>
+<TR><TD>28</TD><TD>GPIOB3/ANB3/VREFLB/CMPC_IN0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOB</TD><TD bgcolor='#F7DCFF'>port3</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>29</TD><TD>VDD_29</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#969696'>non-peripheral</TD><TD bgcolor='#969696'>VCC</TD><TD bgcolor='#969696'>gpio_function</TD><TD bgcolor='#969696'>Not Specified</TD>
+</TR>
+<TR><TD>30</TD><TD>VSS_30</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#969696'>non-peripheral</TD><TD bgcolor='#969696'>GND</TD><TD bgcolor='#969696'>gpio_function</TD><TD bgcolor='#969696'>Not Specified</TD>
+</TR>
+<TR><TD>31</TD><TD>GPIOC6/TA2/XB_IN3/CMP_REF/SS0_B</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port6</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>32</TD><TD>GPIOC7/SS0_B/TXD0/XB_IN8</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port7</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>33</TD><TD>GPIOC8/MISO0/RXD0/XB_IN9/XB_OUT6</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port8</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>34</TD><TD>GPIOC9/SCK0/XB_IN4/TXD0/XB_OUT8</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port9</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>35</TD><TD>GPIOC10/MOSI0/XB_IN5/MISO0/XB_OUT9</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port10</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>36</TD><TD>GPIOF0/XB_IN6/SCK1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOF</TD><TD bgcolor='#F7DCFF'>port0</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>37</TD><TD>GPIOC11/CANTX/SCL0/TXD1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#5FE356'>QSCI1</TD><TD bgcolor='#5FE356'>sci_tx</TD><TD bgcolor='#5FE356'>alt2</TD><TD bgcolor='#5FE356'>Output</TD>
+</TR>
+<TR><TD>38</TD><TD>GPIOC12/CANRX/SDA0/RXD1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#5FE356'>QSCI1</TD><TD bgcolor='#5FE356'>sci_rx</TD><TD bgcolor='#5FE356'>alt2</TD><TD bgcolor='#5FE356'>Input</TD>
+</TR>
+<TR><TD rowspan='2'>39</TD><TD rowspan='2'>GPIOF2/SCL0/XB_OUT6/MISO1</TD><TD rowspan='2'><small><i>same</i></small></TD>
+<TD bgcolor='#C7A886'>XBARA</TD><TD bgcolor='#C7A886'>xBarOut6</TD><TD bgcolor='#C7A886'>alt1</TD><TD bgcolor='#C7A886'>Output</TD>
+</TR>
+<TR bgcolor='#FFE1C7'><TD>AOI</TD><TD>Output3</TD><TD>alt1</TD><TD>Output</TD></TR>
+<TR><TD rowspan='2'>40</TD><TD rowspan='2'>GPIOF3/SDA0/XB_OUT7/MOSI1</TD><TD rowspan='2'><small><i>same</i></small></TD>
+<TD bgcolor='#C7A886'>XBARA</TD><TD bgcolor='#C7A886'>xBarOut7</TD><TD bgcolor='#C7A886'>alt1</TD><TD bgcolor='#C7A886'>Output</TD>
+</TR>
+<TR bgcolor='#FFE1C7'><TD>AOI</TD><TD>Output2</TD><TD>alt1</TD><TD>Output</TD></TR>
+<TR><TD rowspan='2'>41</TD><TD rowspan='2'>GPIOF4/TXD1/XB_OUT8/PWM_0X/PWM_FAULT6</TD><TD rowspan='2'><small><i>same</i></small></TD>
+<TD bgcolor='#C7A886'>XBARA</TD><TD bgcolor='#C7A886'>xBarOut8</TD><TD bgcolor='#C7A886'>alt1</TD><TD bgcolor='#C7A886'>Output</TD>
+</TR>
+<TR bgcolor='#FFE1C7'><TD>AOI</TD><TD>Output0</TD><TD>alt1</TD><TD>Output</TD></TR>
+<TR><TD rowspan='2'>42</TD><TD rowspan='2'>GPIOF5/RXD1/XB_OUT9/PWM_1X/PWM_FAULT7</TD><TD rowspan='2'><small><i>same</i></small></TD>
+<TD bgcolor='#C7A886'>XBARA</TD><TD bgcolor='#C7A886'>xBarOut9</TD><TD bgcolor='#C7A886'>alt1</TD><TD bgcolor='#C7A886'>Output</TD>
+</TR>
+<TR bgcolor='#FFE1C7'><TD>AOI</TD><TD>Output1</TD><TD>alt1</TD><TD>Output</TD></TR>
+<TR><TD>43</TD><TD>VSS_43</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#969696'>non-peripheral</TD><TD bgcolor='#969696'>GND</TD><TD bgcolor='#969696'>gpio_function</TD><TD bgcolor='#969696'>Not Specified</TD>
+</TR>
+<TR><TD>44</TD><TD>VDD_44</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#969696'>non-peripheral</TD><TD bgcolor='#969696'>VCC</TD><TD bgcolor='#969696'>gpio_function</TD><TD bgcolor='#969696'>Not Specified</TD>
+</TR>
+<TR><TD>45</TD><TD>GPIOE0/PWM_0B</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_B0</TD><TD bgcolor='#F7DCFF'>alt0</TD><TD bgcolor='#F7DCFF'>Input</TD>
+</TR>
+<TR><TD>46</TD><TD>GPIOE1/PWM_0A</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_A0</TD><TD bgcolor='#F7DCFF'>alt0</TD><TD bgcolor='#F7DCFF'>Input</TD>
+</TR>
+<TR><TD>47</TD><TD>GPIOE2/PWM_1B</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOE</TD><TD bgcolor='#F7DCFF'>port2</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>48</TD><TD>GPIOE3/PWM_1A</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOE</TD><TD bgcolor='#F7DCFF'>port3</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>49</TD><TD>GPIOC13/TA3/XB_IN6/EWM_OUT_B</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port13</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>50</TD><TD>GPIOF1/CLKO1/XB_IN7/CMPD_O</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOF</TD><TD bgcolor='#F7DCFF'>port1</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>51</TD><TD>GPIOE4/PWM_2B/XB_IN2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOE</TD><TD bgcolor='#F7DCFF'>port4</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>52</TD><TD>GPIOE5/PWM_2A/XB_IN3</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOE</TD><TD bgcolor='#F7DCFF'>port5</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>53</TD><TD>GPIOE6/PWM_3B/XB_IN4</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOE</TD><TD bgcolor='#F7DCFF'>port6</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>54</TD><TD>GPIOE7/PWM_3A/XB_IN5</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOE</TD><TD bgcolor='#F7DCFF'>port7</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>55</TD><TD>GPIOC14/SDA0/XB_OUT4/PWM_FAULT4</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port14</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Output</TD>
+</TR>
+<TR><TD>56</TD><TD>GPIOC15/SCL0/XB_OUT5/PWM_FAULT5</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOC</TD><TD bgcolor='#F7DCFF'>port15</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>57</TD><TD>VCAP_57</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#969696'>non-peripheral</TD><TD bgcolor='#969696'>other</TD><TD bgcolor='#969696'>gpio_function</TD><TD bgcolor='#969696'>Not Specified</TD>
+</TR>
+<TR><TD>58</TD><TD>GPIOF6/PWM_3X/XB_IN2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOF</TD><TD bgcolor='#F7DCFF'>port6</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Output</TD>
+</TR>
+<TR><TD>59</TD><TD>GPIOF7/CMPC_O/SS1_B/XB_IN3</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>GPIOF</TD><TD bgcolor='#F7DCFF'>port7</TD><TD bgcolor='#F7DCFF'>gpio_function</TD><TD bgcolor='#F7DCFF'>Not Specified</TD>
+</TR>
+<TR><TD>60</TD><TD>VDD_60</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#969696'>non-peripheral</TD><TD bgcolor='#969696'>VCC</TD><TD bgcolor='#969696'>gpio_function</TD><TD bgcolor='#969696'>Not Specified</TD>
+</TR>
+<TR><TD>61</TD><TD>VSS_61</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#969696'>non-peripheral</TD><TD bgcolor='#969696'>GND</TD><TD bgcolor='#969696'>gpio_function</TD><TD bgcolor='#969696'>Not Specified</TD>
+</TR>
+<TR><TD>62</TD><TD>TDO/GPIOD1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>EONCE</TD><TD bgcolor='#F7DCFF'>TDO</TD><TD bgcolor='#F7DCFF'>alt0</TD><TD bgcolor='#F7DCFF'>Output</TD>
+</TR>
+<TR><TD>63</TD><TD>TMS/GPIOD3</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>EONCE</TD><TD bgcolor='#F7DCFF'>TMS</TD><TD bgcolor='#F7DCFF'>alt0</TD><TD bgcolor='#F7DCFF'>Input</TD>
+</TR>
+<TR><TD>64</TD><TD>TDI/GPIOD0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>EONCE</TD><TD bgcolor='#F7DCFF'>TDI</TD><TD bgcolor='#F7DCFF'>alt0</TD><TD bgcolor='#F7DCFF'>Input</TD>
+</TR>
+</TABLE><H2><font face='Arial'>Routable Pins</font></H2><TABLE cellpadding='2' border='1' bordercolor='BLACK' bgcolor='WHITE' width='100%' align='center'><TR><TD colspan='3'></TD><TH colspan='3' align='center' bgcolor='#D0D0D0'>alt0</TH><TH colspan='3' align='center' bgcolor='#D0D0D0'>alt1</TH><TH colspan='3' align='center' bgcolor='#D0D0D0'>alt2</TH><TH colspan='3' align='center' bgcolor='#D0D0D0'>alt3</TH><TH colspan='3' align='center' bgcolor='#D0D0D0'>gpio function</TH></TR><TR><TH bgcolor='#E8E8E8'>Package Pin #</TH><TH bgcolor='#E8E8E8'>Pin Name</TH><TH bgcolor='#E8E8E8'>User Assigned Signal Name</TH>
+<TH bgcolor='#E8E8E8'>Peripheral</TH><TH bgcolor='#E8E8E8'>Function</TH><TH bgcolor='#E8E8E8'>Dir</TH>
+<TH bgcolor='#E8E8E8'>Peripheral</TH><TH bgcolor='#E8E8E8'>Function</TH><TH bgcolor='#E8E8E8'>Dir</TH>
+<TH bgcolor='#E8E8E8'>Peripheral</TH><TH bgcolor='#E8E8E8'>Function</TH><TH bgcolor='#E8E8E8'>Dir</TH>
+<TH bgcolor='#E8E8E8'>Peripheral</TH><TH bgcolor='#E8E8E8'>Function</TH><TH bgcolor='#E8E8E8'>Dir</TH>
+<TH bgcolor='#E8E8E8'>Peripheral</TH><TH bgcolor='#E8E8E8'>Function</TH><TH bgcolor='#E8E8E8'>Dir</TH>
+</TR>
+<TR><TD>1</TD><TD>TCK/GPIOD2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>EONCE</TD><TD bgcolor='#F7DCFF'>TCK</TD><TD bgcolor='#F7DCFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>2</TD><TD>RESETB/VPP/GPIOD4</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>non-peripheral</TD><TD bgcolor='#FFFFFF'>RESET<br/>vpp</TD><TD bgcolor='#FFFFFF'></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>3</TD><TD>GPIOC0/EXTAL/CLKIN0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#DDC7B5'>OCCS</TD><TD bgcolor='#DDC7B5'>EXTAL</TD><TD bgcolor='#DDC7B5'>Input</TD>
+<TD bgcolor='#DDC7B5'>OCCS</TD><TD bgcolor='#DDC7B5'>ClockInput</TD><TD bgcolor='#DDC7B5'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>4</TD><TD>GPIOC1/XTAL</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#DDC7B5'>OCCS</TD><TD bgcolor='#DDC7B5'>XTAL</TD><TD bgcolor='#DDC7B5'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>5</TD><TD>GPIOC2/TXD0/XB_OUT11/XB_IN2/CLKO0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#5FE356'>QSCI0</TD><TD bgcolor='#5FE356'>sci_tx</TD><TD bgcolor='#5FE356'>Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut11<br/>Output<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn2<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD bgcolor='#CCB6A0'>SIM</TD><TD bgcolor='#CCB6A0'>ClockOutput0</TD><TD bgcolor='#CCB6A0'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>6</TD><TD>GPIOF8/RXD0/XB_OUT10/CMPD_O/PWM_2X</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#5FE356'>QSCI0</TD><TD bgcolor='#5FE356'>sci_rx</TD><TD bgcolor='#5FE356'>Input</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut10<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD bgcolor='#EFF174'>CMPD</TD><TD bgcolor='#EFF174'>Output</TD><TD bgcolor='#EFF174'>Output</TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_X2</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>7</TD><TD>GPIOC3/TA0/CMPA_O/RXD0/CLKIN1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#B3EAFF'>TMR</TD><TD bgcolor='#B3EAFF'>TMR_IN_PIN0<br/>TMR_OUT_PIN0</TD><TD bgcolor='#B3EAFF'>Input, Output</TD>
+<TD bgcolor='#EFF174'>CMPA</TD><TD bgcolor='#EFF174'>Output</TD><TD bgcolor='#EFF174'>Output</TD>
+<TD bgcolor='#5FE356'>QSCI0</TD><TD bgcolor='#5FE356'>sci_rx</TD><TD bgcolor='#5FE356'>Input</TD>
+<TD bgcolor='#DDC7B5'>OCCS</TD><TD bgcolor='#DDC7B5'>ClockInput</TD><TD bgcolor='#DDC7B5'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>8</TD><TD>GPIOC4/TA1/CMPB_O/XB_IN6/EWM_OUT_B</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#B3EAFF'>TMR</TD><TD bgcolor='#B3EAFF'>TMR_IN_PIN1<br/>TMR_OUT_PIN1</TD><TD bgcolor='#B3EAFF'>Input, Output</TD>
+<TD bgcolor='#EFF174'>CMPB</TD><TD bgcolor='#EFF174'>Output</TD><TD bgcolor='#EFF174'>Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn6<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD bgcolor='#CEFFFF'>EWM</TD><TD bgcolor='#CEFFFF'>ewmoutput</TD><TD bgcolor='#CEFFFF'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>9</TD><TD>GPIOA7/ANA7/CMPD_IN3</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPD<br/>CMPD</TD><TD bgcolor='#FFFFFF'>ADC7<br/>Positive3<br/>Negative3</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>10</TD><TD>GPIOA6/ANA6/CMPD_IN2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPD<br/>CMPD</TD><TD bgcolor='#FFFFFF'>ADC6<br/>Positive2<br/>Negative2</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>11</TD><TD>GPIOA5/ANA5/CMPD_IN1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPD<br/>CMPD</TD><TD bgcolor='#FFFFFF'>ADC5<br/>Positive1<br/>Negative1</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>12</TD><TD>GPIOA4/ANA4/CMPD_IN0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPD<br/>CMPD</TD><TD bgcolor='#FFFFFF'>ADC4<br/>Positive0<br/>Negative0</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>13</TD><TD>GPIOA0/ANA0/CMPA_IN3/CMPC_O</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPA<br/>CMPA</TD><TD bgcolor='#FFFFFF'>ADC0<br/>Positive3<br/>Negative3</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD bgcolor='#EFF174'>CMPC</TD><TD bgcolor='#EFF174'>Output</TD><TD bgcolor='#EFF174'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>14</TD><TD>GPIOA1/ANA1/CMPA_IN0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPA<br/>CMPA</TD><TD bgcolor='#FFFFFF'>ADC1<br/>Positive0<br/>Negative0</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>15</TD><TD>GPIOA2/ANA2/VREFHA/CMPA_IN1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>ADC<br/>CMPA<br/>CMPA</TD><TD bgcolor='#FFFFFF'>ADC2<br/>ADCvrefVREFHA<br/>Positive1<br/>Negative1</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>16</TD><TD>GPIOA3/ANA3/VREFLA/CMPA_IN2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>ADC<br/>CMPA<br/>CMPA</TD><TD bgcolor='#FFFFFF'>ADC3<br/>ADCvrefVREFLA<br/>Positive2<br/>Negative2</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>17</TD><TD>GPIOB7/ANB7/CMPB_IN2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPB<br/>CMPB</TD><TD bgcolor='#FFFFFF'>ADC15<br/>Positive2<br/>Negative2</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>18</TD><TD>GPIOC5/DACA_O/XB_IN7</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#E5E44D'>DACA</TD><TD bgcolor='#E5E44D'>dacout</TD><TD bgcolor='#E5E44D'>Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn7<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>19</TD><TD>GPIOB6/ANB6/CMPB_IN1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPB<br/>CMPB</TD><TD bgcolor='#FFFFFF'>ADC14<br/>Positive1<br/>Negative1</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>20</TD><TD>GPIOB5/ANB5/CMPC_IN2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPC<br/>CMPC</TD><TD bgcolor='#FFFFFF'>ADC13<br/>Positive2<br/>Negative2</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>21</TD><TD>GPIOB4/ANB4/CMPC_IN1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPC<br/>CMPC</TD><TD bgcolor='#FFFFFF'>ADC12<br/>Positive1<br/>Negative1</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>22</TD><TD>VDDA</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>23</TD><TD>VSSA</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>24</TD><TD>GPIOB0/ANB0/CMPB_IN3</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPB<br/>CMPB</TD><TD bgcolor='#FFFFFF'>ADC8<br/>Positive3<br/>Negative3</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>25</TD><TD>GPIOB1/ANB1/CMPB_IN0/DACB_O</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>CMPB<br/>CMPB</TD><TD bgcolor='#FFFFFF'>ADC9<br/>Positive0<br/>Negative0</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD bgcolor='#E5E44D'>DACB</TD><TD bgcolor='#E5E44D'>dacout</TD><TD bgcolor='#E5E44D'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>26</TD><TD>VCAP_26</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>27</TD><TD>GPIOB2/ANB2/VREFHB/CMPC_IN3</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>ADC<br/>CMPC<br/>CMPC</TD><TD bgcolor='#FFFFFF'>ADC10<br/>ADCvrefVREFHB<br/>Positive3<br/>Negative3</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>28</TD><TD>GPIOB3/ANB3/VREFLB/CMPC_IN0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>ADC<br/>ADC<br/>CMPC<br/>CMPC</TD><TD bgcolor='#FFFFFF'>ADC11<br/>ADCvrefVREFLB<br/>Positive0<br/>Negative0</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>29</TD><TD>VDD_29</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>30</TD><TD>VSS_30</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>31</TD><TD>GPIOC6/TA2/XB_IN3/CMP_REF/SS0_B</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#B3EAFF'>TMR</TD><TD bgcolor='#B3EAFF'>TMR_IN_PIN2<br/>TMR_OUT_PIN2</TD><TD bgcolor='#B3EAFF'>Input, Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn3<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD bgcolor='#EFF174'>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD</TD><TD bgcolor='#EFF174'>Positive5<br/>Positive5<br/>Positive5<br/>Positive5<br/>Negative5<br/>Negative5<br/>Negative5<br/>Negative5</TD><TD bgcolor='#EFF174'>Input</TD>
+<TD bgcolor='#20E04E'>QSPI0</TD><TD bgcolor='#20E04E'>spi_ss</TD><TD bgcolor='#20E04E'>Input, Output</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>32</TD><TD>GPIOC7/SS0_B/TXD0/XB_IN8</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#20E04E'>QSPI0</TD><TD bgcolor='#20E04E'>spi_ss</TD><TD bgcolor='#20E04E'>Input, Output</TD>
+<TD bgcolor='#5FE356'>QSCI0</TD><TD bgcolor='#5FE356'>sci_tx</TD><TD bgcolor='#5FE356'>Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn8<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>33</TD><TD>GPIOC8/MISO0/RXD0/XB_IN9/XB_OUT6</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#20E04E'>QSPI0</TD><TD bgcolor='#20E04E'>spi_miso</TD><TD bgcolor='#20E04E'>Input, Output</TD>
+<TD bgcolor='#5FE356'>QSCI0</TD><TD bgcolor='#5FE356'>sci_rx</TD><TD bgcolor='#5FE356'>Input</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn9<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut6<br/>Output<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>34</TD><TD>GPIOC9/SCK0/XB_IN4/TXD0/XB_OUT8</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#20E04E'>QSPI0</TD><TD bgcolor='#20E04E'>spi_sck</TD><TD bgcolor='#20E04E'>Input, Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn4<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD bgcolor='#5FE356'>QSCI0</TD><TD bgcolor='#5FE356'>sci_tx</TD><TD bgcolor='#5FE356'>Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut8<br/>Output<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>35</TD><TD>GPIOC10/MOSI0/XB_IN5/MISO0/XB_OUT9</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#20E04E'>QSPI0</TD><TD bgcolor='#20E04E'>spi_mosi</TD><TD bgcolor='#20E04E'>Input, Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn5<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD bgcolor='#20E04E'>QSPI0</TD><TD bgcolor='#20E04E'>spi_miso</TD><TD bgcolor='#20E04E'>Input, Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut9<br/>Output<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>36</TD><TD>GPIOF0/XB_IN6/SCK1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn6<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD bgcolor='#20E04E'>QSPI1</TD><TD bgcolor='#20E04E'>spi_sck</TD><TD bgcolor='#20E04E'>Input, Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>37</TD><TD>GPIOC11/CANTX/SCL0/TXD1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#AFFF8E'>CAN</TD><TD bgcolor='#AFFF8E'>can_txd</TD><TD bgcolor='#AFFF8E'>Output</TD>
+<TD bgcolor='#90EE67'>I2C</TD><TD bgcolor='#90EE67'>i2c_sclk</TD><TD bgcolor='#90EE67'>Input/Output</TD>
+<TD bgcolor='#5FE356'>QSCI1</TD><TD bgcolor='#5FE356'>sci_tx</TD><TD bgcolor='#5FE356'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>38</TD><TD>GPIOC12/CANRX/SDA0/RXD1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#AFFF8E'>CAN</TD><TD bgcolor='#AFFF8E'>can_rxd</TD><TD bgcolor='#AFFF8E'>Input</TD>
+<TD bgcolor='#90EE67'>I2C</TD><TD bgcolor='#90EE67'>i2c_sda</TD><TD bgcolor='#90EE67'>Input/Output</TD>
+<TD bgcolor='#5FE356'>QSCI1</TD><TD bgcolor='#5FE356'>sci_rx</TD><TD bgcolor='#5FE356'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>39</TD><TD>GPIOF2/SCL0/XB_OUT6/MISO1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#90EE67'>I2C</TD><TD bgcolor='#90EE67'>i2c_sclk</TD><TD bgcolor='#90EE67'>Input/Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut6<br/>Output<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD bgcolor='#20E04E'>QSPI1</TD><TD bgcolor='#20E04E'>spi_miso</TD><TD bgcolor='#20E04E'>Input, Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>40</TD><TD>GPIOF3/SDA0/XB_OUT7/MOSI1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#90EE67'>I2C</TD><TD bgcolor='#90EE67'>i2c_sda</TD><TD bgcolor='#90EE67'>Input/Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut7<br/>Output<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD bgcolor='#20E04E'>QSPI1</TD><TD bgcolor='#20E04E'>spi_mosi</TD><TD bgcolor='#20E04E'>Input, Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>41</TD><TD>GPIOF4/TXD1/XB_OUT8/PWM_0X/PWM_FAULT6</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#5FE356'>QSCI1</TD><TD bgcolor='#5FE356'>sci_tx</TD><TD bgcolor='#5FE356'>Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut8<br/>Output<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_X0</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>Fault6</TD><TD bgcolor='#F7DCFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>42</TD><TD>GPIOF5/RXD1/XB_OUT9/PWM_1X/PWM_FAULT7</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#5FE356'>QSCI1</TD><TD bgcolor='#5FE356'>sci_rx</TD><TD bgcolor='#5FE356'>Input</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut9<br/>Output<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_X1</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>Fault7</TD><TD bgcolor='#F7DCFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>43</TD><TD>VSS_43</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>44</TD><TD>VDD_44</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>45</TD><TD>GPIOE0/PWM_0B</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_B0</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>46</TD><TD>GPIOE1/PWM_0A</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_A0</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>47</TD><TD>GPIOE2/PWM_1B</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_B1</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>48</TD><TD>GPIOE3/PWM_1A</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_A1</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>49</TD><TD>GPIOC13/TA3/XB_IN6/EWM_OUT_B</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#B3EAFF'>TMR</TD><TD bgcolor='#B3EAFF'>TMR_IN_PIN3<br/>TMR_OUT_PIN3</TD><TD bgcolor='#B3EAFF'>Input, Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn6<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD bgcolor='#CEFFFF'>EWM</TD><TD bgcolor='#CEFFFF'>ewmoutput</TD><TD bgcolor='#CEFFFF'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>50</TD><TD>GPIOF1/CLKO1/XB_IN7/CMPD_O</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#CCB6A0'>SIM</TD><TD bgcolor='#CCB6A0'>ClockOutput1</TD><TD bgcolor='#CCB6A0'>Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn7<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD bgcolor='#EFF174'>CMPD</TD><TD bgcolor='#EFF174'>Output</TD><TD bgcolor='#EFF174'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>51</TD><TD>GPIOE4/PWM_2B/XB_IN2</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_B2</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn2<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>52</TD><TD>GPIOE5/PWM_2A/XB_IN3</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_A2</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn3<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>53</TD><TD>GPIOE6/PWM_3B/XB_IN4</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_B3</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn4<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>54</TD><TD>GPIOE7/PWM_3A/XB_IN5</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_A3</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn5<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>55</TD><TD>GPIOC14/SDA0/XB_OUT4/PWM_FAULT4</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#90EE67'>I2C</TD><TD bgcolor='#90EE67'>i2c_sda</TD><TD bgcolor='#90EE67'>Input/Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut4<br/>Output<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>Fault4</TD><TD bgcolor='#F7DCFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>56</TD><TD>GPIOC15/SCL0/XB_OUT5/PWM_FAULT5</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#90EE67'>I2C</TD><TD bgcolor='#90EE67'>i2c_sclk</TD><TD bgcolor='#90EE67'>Input/Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PIT0<br/>PIT1</TD><TD bgcolor='#FFFFFF'>xBarOut5<br/>Output<br/>Output<br/>Output<br/>Output<br/>TMR_OUT_PIN0<br/>TMR_OUT_PIN1<br/>TMR_OUT_PIN2<br/>TMR_OUT_PIN3<br/>Output0<br/>Output1<br/>Output2<br/>Output3<br/>OutputTrigger00<br/>OutputTrigger10<br/>OutputTrigger01<br/>OutputTrigger11<br/>OutputTrigger02<br/>OutputTrigger12<br/>OutputTrigger03<br/>OutputTrigger13<br/>PIT_OUT_PIN<br/>PIT_OUT_PIN</TD><TD bgcolor='#FFFFFF'>Output</TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>Fault5</TD><TD bgcolor='#F7DCFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>57</TD><TD>VCAP_57</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>58</TD><TD>GPIOF6/PWM_3X/XB_IN2</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD bgcolor='#F7DCFF'>PWMA</TD><TD bgcolor='#F7DCFF'>out_X3</TD><TD bgcolor='#F7DCFF'>Input, Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn2<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>59</TD><TD>GPIOF7/CMPC_O/SS1_B/XB_IN3</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD bgcolor='#EFF174'>CMPC</TD><TD bgcolor='#EFF174'>Output</TD><TD bgcolor='#EFF174'>Output</TD>
+<TD bgcolor='#20E04E'>QSPI1</TD><TD bgcolor='#20E04E'>spi_ss</TD><TD bgcolor='#20E04E'>Input, Output</TD>
+<TD bgcolor='#FFFFFF'>XBARA<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>AOI<br/>DMA<br/>DMA<br/>DMA<br/>DMA<br/>ADC<br/>ADC<br/>DACB<br/>DACA<br/>CMPA<br/>CMPB<br/>CMPC<br/>CMPD<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>PWMA<br/>TMR<br/>TMR<br/>TMR<br/>TMR<br/>QSCI0<br/>QSCI1<br/>EWM</TD><TD bgcolor='#FFFFFF'>xBarIn3<br/>InputA0<br/>InputB0<br/>InputC0<br/>InputD0<br/>InputA1<br/>InputB1<br/>InputC1<br/>InputD1<br/>InputA2<br/>InputB2<br/>InputC2<br/>InputD2<br/>InputA3<br/>InputB3<br/>InputC3<br/>InputD3<br/>DMAtrigger0<br/>DMAtrigger1<br/>DMAtrigger2<br/>DMAtrigger3<br/>ADCtriggerA<br/>ADCtriggerB<br/>DACtrigger<br/>DACtrigger<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>WindowSample<br/>ExternalControlA0<br/>ExternalControlA1<br/>ExternalControlA2<br/>ExternalControlA3<br/>ExternalSync0<br/>ExternalSync1<br/>ExternalSync2<br/>ExternalSync3<br/>EXT_CLK<br/>Fault0<br/>Fault1<br/>Fault2<br/>Fault3<br/>ExternalForce<br/>TMR_IN_PIN0<br/>TMR_IN_PIN1<br/>TMR_IN_PIN2<br/>TMR_IN_PIN3<br/>sci_rx<br/>sci_rx<br/>ewminput</TD><TD bgcolor='#FFFFFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>60</TD><TD>VDD_60</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>61</TD><TD>VSS_61</TD><TD><small><i>same</i></small></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>62</TD><TD>TDO/GPIOD1</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>EONCE</TD><TD bgcolor='#F7DCFF'>TDO</TD><TD bgcolor='#F7DCFF'>Output</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>63</TD><TD>TMS/GPIOD3</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>EONCE</TD><TD bgcolor='#F7DCFF'>TMS</TD><TD bgcolor='#F7DCFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+<TR><TD>64</TD><TD>TDI/GPIOD0</TD><TD><small><i>same</i></small></TD>
+<TD bgcolor='#F7DCFF'>EONCE</TD><TD bgcolor='#F7DCFF'>TDI</TD><TD bgcolor='#F7DCFF'>Input</TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+<TD></TD><TD></TD><TD></TD>
+</TR>
+</TABLE>
+*/

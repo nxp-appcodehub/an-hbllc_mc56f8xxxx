@@ -1,0 +1,37 @@
+Release Name: an-hbllc_mc56f8xxxx
+Release Version: 1.0
+Package License:  LA_OPT_NXP_Software_License v48 July 2023 - Additional Distribution License granted, license in Section 2.3 applies
+License File: LICENSE.txt
+Description: This is a half bridge LLC reference design using MC56F8xxxx DSC.
+Release Location: https://github.com/nxp-appcodehub/an-hbllc_mc56f8xxxx
+Origin: NXP
+
+rtcesl                     Author: NXP                                       
+                           version: 4.5                                      
+                           name: rtcesl                                      
+                           Format: source code & object code & header files                
+                           License File: LICENSE.txt  
+                           Outgoing License: LA_OPT_NXP_SOFTWARE_License - Additional distribution license granted, license in Section 2.3 applies             
+                           Location: HBLLC_MC56F83783_V1.0\DSP56800EX_RTCESL_4.5, HBLLC_MC56F82748_V1.0\DSP56800EX_RTCESL_4.5, HBLLC_MC56F81768_V1.0\DSP56800EX_RTCESL_4.5                      
+                           Description: NXP Real Time Control Embedded Software Library for DSC.           
+
+                    
+freemaster                 Author: NXP                                       
+                           version: 1.8.2                                    
+                           name: FreeMASTER                                  
+                           Format: source code & header files                
+                           License File: LICENSE.txt  
+                           Outgoing License: LA_OPT_NXP_Software_License.txt - Additional distribution license granted - License in Section 2.3 applies                      
+                           Location: HBLLC_MC56F83783_V1.0\FreeMASTER, HBLLC_MC56F81768_V1.0\FreeMASTER                 
+                           Description: FreeMASTER run-time debugging tool   
+         
+
+HBLLC_control              Name: TPPFC control related source codes                      
+                           Version: NA
+                           Outgoing License: BSD-S-Clause       
+                           License File: COPYING-BSD-3               
+                           Format: source code & header files                              
+                           Description: HBLLC platform control algorithm                      
+                           Location: HBLLC_MC56F83783_V1.0\Sources,HBLLC_MC56F83783_V1.0\Project_Headers,HBLLC_MC56F83783_V1.0\Project_Settings,
+                                     HBLLC_MC56F82748_V1.0\Sources,HBLLC_MC56F82748_V1.0\Generated_Code,HBLLC_MC56F82748_V1.0\Project_Settings,HBLLC_MC56F82748_V1.0\Static_Code 
+                                     HBLLC_MC56F81768_V1.0\Sources,HBLLC_MC56F81768_V1.0\Project_Headers,HBLLC_MC56F81768_V1.0\Project_Settings

@@ -1,0 +1,46 @@
+  /*!
+\dontinclude cpu.c
+\dontinclude cpu.h
+\dontinclude IO_Map.h
+
+
+
+\page page_pinalloc Pins allocation 
+\page page_memorymap Memory map 
+<table>
+  <tr><td colspan="2" class="ttitle1">Processor Memory Map</td></tr>
+  <tr><td class="ttitle2">Address</td><td class="ttitle2">Type</td></tr>
+  <tr><td>0x0000EFFF<br>0x00000000</td><td class="memtypeReserved"></td>
+  <tr><td>0x0000FFFF<br>0x0000F000</td><td class="memtypeRAM">RAM</td>
+  <tr><td>0x00007FFF<br>0x00000208</td><td class="memtypeFLASH">FLASH</td>
+  <tr><td>0x00000207<br>0x00000200</td><td class="memtypeRAM">FLASH_CONFIG</td>
+  <tr><td>0x000001FF<br>0x00000000</td><td class="memtypeFLASH">FLASH</td>
+  <tr><td>0x0000BFFF<br>0x00000200</td><td class="memtypeReserved"></td>
+  <tr><td>0x0000FFFF<br>0x0000C000</td><td class="memtypeIO">I/O</td>
+  <tr><td>0x0000BFFF<br>0x00004208</td><td class="memtypeFLASH">FLASH</td>
+  <tr><td>0x00004207<br>0x00004200</td><td class="memtypeRAM">FLASH_CONFIG</td>
+  <tr><td>0x000041FF<br>0x00004000</td><td class="memtypeFLASH">FLASH</td>
+  <tr><td>0x00000FFF<br>0x00000000</td><td class="memtypeRAM">RAM</td>
+</table>
+<br/>
+
+\page page_components Components 
+
+- \subpage CMPA
+- \subpage CMPD
+- \subpage CMPB
+
+
+*/
+/*!
+** @}
+*/
+/*
+** ###################################################################
+**
+**     This file was created by Processor Expert 10.3 [05.09]
+**     for the Freescale 56800 series of microcontrollers.
+**
+** ###################################################################
+*/
+

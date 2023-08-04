@@ -1,0 +1,25 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-hbllc_mc56f8xxxx" type="app_note" format="projectfile" name="hbllc_mc56f8xxxx">
+    <overview>
+        <![CDATA[This is an LLC resonant converter reference design using MC56F8xxxx DSC.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="codewarrior"></toolchain>
+    </toolchains>
+    <families>
+        <family name="dsc"></family>
+    </families>
+    <nxp_compatible_hw>
+        <custom_hw></custom_hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="adc"></peripheral>
+        <peripheral name="flash"></peripheral>
+        <peripheral name="gpio"></peripheral>
+        <peripheral name="pwm"></peripheral>
+        <peripheral name="timer"></peripheral>
+        <peripheral name="uart"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="power_conversion"></category>
+    </categories>
+</data:item>

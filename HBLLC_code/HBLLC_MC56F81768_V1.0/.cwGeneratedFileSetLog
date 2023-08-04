@@ -1,0 +1,17 @@
+Sources/main.c
+Project_Settings/Linker_Files/MC56F81768_Internal_PFlash_SDM.cmd
+Project_Settings/Linker_Files/MC56F81768_Internal_PFlash_LDM.cmd
+Project_Settings/Startup_Code/MC56F81xxx_init.asm
+Project_Settings/Startup_Code/MC56F81xxx_Vectors.c
+Project_Settings/Startup_Code/Cpu.c
+Project_Settings/Startup_Code/Flash_config.c
+Project_Headers/Cpu.h
+Project_Headers/ISR.h
+Project_Headers/MC56F81768.inc
+Project_Headers/MC56F81xxx_init.inc
+Project_Headers/derivative.h
+Project_Headers/MC56F81768.h
+Project_Settings/Debugger/MC56F81768.tcl
+Project_Settings/Debugger/MC56F81768.mem
+.settings/com.freescale.core.ide.newprojectwizard.prefs
+ReferencedRSESystems.xml
