@@ -47,7 +47,7 @@ The software for this Application Note is delivered in raw source files and Code
 * Peak Efficiency is higher than 92%;
 * Peak temperature less than 90°C at full loading output;
 
-![efficiency](images/efficiency.PNG)
+![efficiency](images/efficiency.png)
 
 
 ## 5. FAQs<a name="step5"></a>
